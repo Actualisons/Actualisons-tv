@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Actualisons - Parlons Finance</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f8f8;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #ffe600;
+            color: #333;
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 20px;
+        }
+        .section {
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin: 10px;
+            padding: 20px;
+            flex: 1 1 300px;
+            max-width: 300px;
+            text-align: center;
+        }
+        .section img {
+            width: 50px;
+            margin-bottom: 15px;
+        }
+        .section h2 {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 20px;
+        }
+        footer a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Actualisons - Parlons Finance</h1>
+        <p>Votre source d'actualités économiques et financières quotidiennes.</p>
+    </header>
+
+    <div class="container">
+        <div class="section">
+            <img src="https://i.imgur.com/sZxPWGJ.png" alt="Actualité">
+            <h2>Actualité</h2>
+            <p>Dernières nouvelles du monde économique et financier.</p>
+        </div>
+
+        <div class="section">
+            <img src="https://i.imgur.com/nYdTE1J.png" alt="Bourse">
+            <h2>Bourse</h2>
+            <p>Suivi des marchés et des tendances boursières.</p>
+        </div>
+
+        <div class="section">
+            <img src="https://i.imgur.com/2xA5ftL.png" alt="Épargne">
+            <h2>Épargne</h2>
+            <p>Conseils pour mieux gérer et faire fructifier vos économies.</p>
+        </div>
+
+        <div class="section">
+            <img src="https://i.imgur.com/PgWSuEd.png" alt="Investissement">
+            <h2>Investissement</h2>
+            <p>Stratégies pour investir intelligemment dans divers secteurs.</p>
+        </div>
+    </div>
+
+    <footer>
+        <p>Suivez-nous sur Instagram : <a href="https://www.instagram.com/actualisons_tv/">@actualisons_tv</a></p>
+    </footer>
+</body>
+</html>
